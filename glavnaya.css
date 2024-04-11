@@ -17,3 +17,505 @@ body {
     background-size: cover;
     background-position: center;
 }  
+
+main {
+    flex-grow: 1;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+}
+
+main h2{
+    font-family: 'Poiret One', sans-serif;
+    color: #fff;
+    letter-spacing: 4px;
+    text-align: center;
+    padding: 25px;
+    font-size: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+
+header{
+    top: 0; 
+    left: 0; 
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    z-index: 99;
+    max-height: 170px;
+}
+
+.logo {
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+    font-family: 'Poiret One', sans-serif;
+}
+
+.navigation a {
+    position: relative; 
+    font-size: 1.25em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500; 
+    margin-left: 40px;
+    font-family: 'Poiret One', sans-serif;
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%; 
+    height: 1px;
+    background: #fff;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after{
+    transform: scaleX(1);
+}
+
+.short_about{
+    width: 610px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.8;
+    font-family: 'Poiret One', sans-serif;
+    color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.wrapper_2 {
+    max-width: 1150px;
+    margin: 0 auto;
+    position: relative;
+    background-color: #919191bc; 
+    border-radius: 15px; 
+    overflow: hidden; 
+    margin-bottom: 50px;
+}
+
+.wrapper_2 h1 {
+    text-align: center;
+    margin-top: 52px;
+    font-size: 36px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    font-family: 'Poiret One', sans-serif;
+    letter-spacing: 2px
+}
+.our_target {
+    text-align: center;
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Poiret One', sans-serif;
+}
+.suggestion {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 70px 0px 50px;
+    margin-left: 50px;
+}
+.suggestion > div {
+    width: 50%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: 52px 52px;
+    padding: 0 40px 50px 0;
+}
+.suggestion h2 {
+    margin-left: 65px;
+    text-align: left;
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Poiret One', sans-serif;
+    letter-spacing: 4px;
+}
+.suggestion p {
+    margin-left: 65px;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 2px;
+    color: #ffffff;
+    font-family: 'Poiret One', sans-serif;
+    letter-spacing: 1px;
+}
+.suggestion > .routs {
+    background-image: url(../images/map.png);
+}
+.suggestion > .souvenirs {
+    background-image: url('../images/souvenir.png');
+}
+.suggestion > .excursions {
+    background-image: url('../images/compass.png');
+}
+.suggestion > .photosessions {
+    background-image: url('../images/picture.png');
+}
+.suggestion > .meetings {
+    background-image: url('../images/discussion.png');
+}
+.suggestion > .emotions {
+    background-image: url('../images/sun.png');
+}
+.container_about {
+    display: flex;
+    align-items: center;
+    max-width: 1150px;
+    margin-bottom: 50px;
+    background-color: #919191bc;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.image-container {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 50%; 
+    overflow: hidden; 
+    margin: 20px; 
+    box-shadow: 0 0 10px rgba(192, 192, 192, 0.611);
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto; 
+}
+
+.text-container {
+    flex: 1; 
+    max-height: 500px; 
+    padding: 20px;
+    background-color: #a1a1a1b6;
+    border-radius: 15px;
+    margin: 30px;
+}
+.text-container h2{
+    font-family: 'Poiret One', sans-serif;
+    text-align: left;
+    font-size: 25px;
+    color: #4f4f4f;
+    letter-spacing: 4px;
+}
+.text-container p{
+    font-family: 'Poiret One', sans-serif;
+    text-align: left;
+    font-size: 16px;
+    color: #ffffff;
+    letter-spacing: 3px;
+    margin-left: 10px;
+}
+
+.flex-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1150px;
+    margin: 0 auto;
+    border-radius: 15px; 
+    overflow: hidden; 
+    margin-bottom: 50px;
+}
+
+.gallery-item {
+    flex: 25%;
+    max-width: 25%;
+}
+
+.gallery-item img {
+    width: 100%; 
+    height: 370px; 
+}
+
+.recalls {
+    display: flex;
+    font-size: 18px;
+    background-color: #919191bc;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 1150px;
+    margin: 0 auto;
+    gap: 50px;
+    margin-bottom: 50px;
+}
+.text {
+    color: #ffffff;
+    font-family: 'Poiret One', sans-serif;
+}
+.recall_1 {
+    max-width: 600px;
+    background-color: #a1a1a1b6;
+    border-radius: 15px;
+    padding: 15px;
+}
+.person {
+    position: relative;
+}
+.person_photo {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.person_photo_1 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTO_JkNbdz8YRxuPGXI-CKx5DKSImQopt9Q6spwZ8TT6g&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+.person_name {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Poiret One', sans-serif;
+}
+.recall_2 {
+    max-width: 600px;
+    padding-left: 100px;
+    background-color: #a1a1a1b6;
+    border-radius: 15px;
+    padding: 15px;
+}
+.person_photo_2 {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpQHbztce_6ajLPCYo5ZYuSGOO-jkY29QOamevWkDmTA&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.container_form {
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #919191bc;
+    border-radius: 15px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.left-section input[type="text"],
+.left-section input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+form {
+    width: 100%;
+    padding: 20px;
+    background-color: #a1a1a1b6;
+    border-radius: 15px;
+    height: 225px;
+}
+
+form label {
+    color: #fff;
+    font-family: 'Poiret One', sans-serif;
+}
+
+form textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    resize: none;
+}
+
+form input[type="submit"] {
+    background-color: #5656568b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 16px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ffffff;
+    color: #5656568b;
+}
+.container_interesting{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    margin-bottom: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.rotate-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.change {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    perspective: 1000px;
+    background-color: #ffffff68;
+    border: 5px solid #ffffffb6;
+    border-radius: 50%; 
+    overflow: hidden; 
+}
+
+.front-side img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 50%; 
+}
+
+.change:hover .front-side {
+    transform: rotateY(180deg);
+}
+
+.change:hover .back-side {
+    transform: rotateY(360deg);
+}
+
+.front-side, .back-side {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    -webkit-backface-visibility: hidden;
+}
+
+
+.back-side-text {
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transform: rotate(360deg);
+    text-align: center;
+    color: #fff;
+    font-family: 'Poiret One', sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.back-side {
+    transform: rotateY(180deg);
+}
+
+footer {
+    background-color: #8a8a8a8b;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+footer a {
+    font-family: 'Poiret One', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ul.social-footer2 {
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+ul.social-footer2 li {
+    display: inline-block;
+    padding: 0;
+    margin: 8px;
+}
+
+ul.social-footer2 li a {
+    display: block;
+    text-align: center;
+    font-family: 'Poiret One', sans-serif;
+}
+
+@media only screen and (max-width: 1024px)
+{
+    header {
+        padding: 15px;
+    }
+    .about{
+        margin-top: 50px;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    header {
+        padding: 15px;
+    }
+    .about{
+        margin-top: 70px;
+    }
+}
+@media only screen and (max-width: 568px)
+{
+    header {
+        padding: 15px;
+    }
+    .about{
+        width: 450px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    header {
+        padding: 15px;
+    }
+    .logo {
+        font-size: 1.5em;
+    }
+    .navigation a {
+        font-size: 1em;
+        margin-left: 10px;
+    }
+    .about {
+        font-size: 14px;
+        width: 300px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+    footer {
+        height: 135px;
+    }
+    ul.social-footer2 li a {
+        font-size: 16px;
+        text-align: center;
+    }
+}
