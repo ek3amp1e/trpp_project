@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Poiret+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
+    flex-grow: 1;
+    background: url(https://i.pinimg.com/564x/d4/3b/b4/d43bb43253f739b79844e30668b3eb6c.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
