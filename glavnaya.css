@@ -493,29 +493,3 @@ ul.social-footer2 li a {
         width: 450px;
     }
 }
-
-@media only screen and (max-width: 414px) {
-    header {
-        padding: 15px;
-    }
-    .logo {
-        font-size: 1.5em;
-    }
-    .navigation a {
-        font-size: 1em;
-        margin-left: 10px;
-    }
-    .about {
-        font-size: 14px;
-        width: 300px;
-        height: 300px;
-        margin-bottom: 50px;
-    }
-    footer {
-        height: 135px;
-    }
-    ul.social-footer2 li a {
-        font-size: 16px;
-        text-align: center;
-    }
-}
