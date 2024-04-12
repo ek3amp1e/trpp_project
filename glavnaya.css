@@ -494,9 +494,9 @@ ul.social-footer2 li a {
     }
 }
 
-@media only screen and (max-width: 415px) {
+@media only screen and (max-width: 414px) {
     header {
-        padding: 16px;
+        padding: 15px;
     }
     .logo {
         font-size: 1.5em;
@@ -512,10 +512,10 @@ ul.social-footer2 li a {
         margin-bottom: 50px;
     }
     footer {
-        height: 136px;
+        height: 135px;
     }
     ul.social-footer2 li a {
-        font-size: 15px;
+        font-size: 16px;
         text-align: center;
     }
 }
