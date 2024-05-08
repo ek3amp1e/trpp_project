@@ -203,7 +203,7 @@ header{
 
 .text-container {
     flex: 1; 
-    max-height: 500px; 
+    height: auto; 
     padding: 20px;
     background-color: #a1a1a1b6;
     border-radius: 15px;

@@ -145,7 +145,7 @@ header{
   }
 
 .blog-card.active .title-content {
-    margin-top: 70px;
+    margin-top: 45px;
 }
 
 .blog-card.active h3:after {
@@ -153,10 +153,26 @@ header{
     width: 80%;
 }
 
+.blog-card.active .title-content h3 {
+    display: none;
+}  
+
 .blog-card.active .card-info {
     opacity: 1;
-    bottom: 100px;
+    bottom: 15px;
 }
+.map-container {
+    display: none; 
+    height: 185px;
+    width: 346px;
+    margin-left: -50px;
+    margin-top: 15px;
+}
+  
+  .blog-card.active .map-container {
+    display: block; 
+  }
+  
   
   @keyframes changeLetter {
     0% {
